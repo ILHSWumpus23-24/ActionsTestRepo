@@ -1,0 +1,15 @@
+# Based on https://github.com/actions/starter-workflows/blob/main/ci/node.js.yml
+name: Continuous Integration
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  ci:
+    runs-on: windows-latest
+    steps:
+      - name: Check out Repository code
+        uses: actions/checkout@v4
+      - run: echo "starting tests"
+      - run: ${{ github.workspace }}/test/test_success
+      - run: echo "Job Status is ${{ job.status }}. "
