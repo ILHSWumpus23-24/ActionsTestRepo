@@ -16,4 +16,9 @@ We'll start with the information on [this page](https://docs.github.com/en/actio
 
 2. When we push into your branch, the actions are run. 
 
-3. The results of the test are stored in the Actions tab in the Github website for this repository. ![as shown here](./assets/github-actions-results.png)
+3. The results of the test are stored in the Actions tab in the Github website for this repository. It can take a minute or two, since Github spins up a fresh version of Windows, copies over the files to that server, then fires off the testing.
+![photo of actions tab](./assets/github-actions-results.png)
+
+4. Test Failures are shown by visiting the Actions tab ![test failure](./assets/test-failed.png)
+
+5. Unfortunately, pull requests are still possible to make, even after you fail the test run
