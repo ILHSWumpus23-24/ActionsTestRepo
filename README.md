@@ -6,4 +6,9 @@ For each repository, we go to the settings tab on Github and click on the "Branc
 
 The "Require a pull request before merging" seems like the obvious pace to start.
 
-More details about the options chosen on the page above is available at this [manaul page](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
+More details about the options chosen on the page above is available at this [manual page](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
+
+## Running Continuous Integration testing on push
+
+We'll start with the information on [this page](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions).
+We'll create the folders ```.github/workflows``` at the root of the project and create a YML file. 
