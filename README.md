@@ -18,7 +18,7 @@ We'll start with the information on [this page](https://docs.github.com/en/actio
 
 1. We'll create the folders ```.github/workflows``` at the root of the project and create a YML file. 
 
-2. When we push into your branch, the actions are run. 
+2. When we push into your branch, the actions are run. ```github-actions-demo.yml``` will get run on every push into every non-main branch. That alone will deny Pull Requests into Main. ```ci.yml``` will get run on pull requests into main only, so could be an additional test.
 
 3. The results of the test are stored in the Actions tab in the Github website for this repository. It can take a minute or two, since Github spins up a fresh version of Windows, copies over the files to that server, then fires off the testing.
 ![photo of actions tab](./assets/github-actions-results.png)
