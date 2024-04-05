@@ -25,4 +25,4 @@ We'll start with the information on [this page](https://docs.github.com/en/actio
 
 4. Test Failures are shown by visiting the Actions tab ![test failure](./assets/test-failed.png)
 
-5. Unfortunately, pull requests are still possible to make, even after you fail the test run
+5. Creating a pull request is possible, but the pull request can't be resolved without passing all the tests and an approval from at least one team member.
