@@ -17,5 +17,5 @@ jobs:
           ls ${{ github.workspace }}
       - name: Run Test files
         run: |
-          ${{ github.workspace }}/test/test_success
+          ${{ github.workspace }}/test/test_fail
       - run: echo "🍏 This job's status is ${{ job.status }}."

@@ -11,4 +11,9 @@ More details about the options chosen on the page above is available at this [ma
 ## Running Continuous Integration testing on push
 
 We'll start with the information on [this page](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions).
-We'll create the folders ```.github/workflows``` at the root of the project and create a YML file. 
+
+1. We'll create the folders ```.github/workflows``` at the root of the project and create a YML file. 
+
+2. When we push into your branch, the actions are run. 
+
+3. The results of the test are stored in the Actions tab in the Github website for this repository. ![as shown here](./assets/github-actions-results.png)
